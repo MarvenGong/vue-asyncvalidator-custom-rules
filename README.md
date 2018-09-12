@@ -1,4 +1,7 @@
 ## vue asyncvalidator 自定义验证规则 vue-asyncvalidator-custom-rules
+#### 更新历史
+- v1.0.0 基本规则创建
+
 #### 使用方法
 - 通过npm安装插件 npm install --save-dev vue-asyncvalidator-custom-rules
 - 在需要验证表单的组件内导入插件
@@ -23,3 +26,11 @@
     <el-input type="number" v-if="!isFromDetail" placeholder="" v-model.number="form.price"></el-input>
   </el-form-item>
   ~~~
+
+#### 验证规则列表
+  - money : 价格-必须是整数或者两位小数
+  - idcard ：身份证-18位第二代身份证
+  - telephone ：电话号码-中间用“-”隔开的带区号的座机号码
+  - mobile ：手机号码
+  - plusdigital ： 无符号正整数
+  - url ：浏览器url

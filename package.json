@@ -2,7 +2,7 @@
   "name": "vue-asyncvalidator-custom-rules",
   "version": "1.0.0",
   "description": "vue asyncvalidator custom rules",
-  "main": "index.js",
+  "main": "vue-asyncvalidator-custom-rules.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
