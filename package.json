@@ -1,0 +1,22 @@
+{
+  "name": "vue-asyncvalidator-custom-rules",
+  "version": "1.0.0",
+  "description": "vue asyncvalidator custom rules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarvenGong/vue-asyncvalidator-custom-rules.git"
+  },
+  "author": "gongminghua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarvenGong/vue-asyncvalidator-custom-rules/issues"
+  },
+  "homepage": "https://github.com/MarvenGong/vue-asyncvalidator-custom-rules#readme",
+  "dependencies": {
+    "etools": "^1.2.3"
+  }
+}
